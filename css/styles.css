@@ -29,65 +29,90 @@
 }
 /* end Century Gothic */
 html {
-  height: 100%;
   background: linear-gradient(to right, rgba(5,242,190,1.0), rgba(46,244,143,1.0)) no-repeat top left;
-  /* background-color: rgba(185,54,138,1.0); */
 }
-
 body {
-  height: 100%;
-  background: url("../img/thailandMain.jpg") no-repeat top left;
-  background-size: 100% auto;
+  background: url("../img/thailandMain.png") no-repeat top left;
+  background-size: 45% auto;
   font-family: 'Century Gothic';
   font-style: normal;
   font-size: 14px;
 }
-
-
+@media (max-width: 600px) {
+  body {
+    background-size: 80% auto;
+  }
+}
+.jumbotron {
+  background-color: rgba(5,242,190,0.0);
+}
+.jumbotron h1 {
+  font-family: 'Bernhard Modern';
+  color: rgba(0,0,0,1.0);
+  font-size: 95px;
+  text-align: center;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+@media (min-width: 600px) {
+  .jumbotron h1 {
+    font-size: 129px;
+  }
+}
+.jumbotron .row {
+  background: linear-gradient(to top, rgba(5,242,190,.65), rgba(46,244,143,.65)) no-repeat top left;
+  padding: 2em 2em 2em 2em;
+}
 .jumbotron .lead  {
   margin: 0 0 .5em .5em;
   font-size: 1.5em;
   font-weight: 300;
   line-height: 1.4;
+  padding: 0 0 0 0;
+  text-align: center;
+
 }
 @media (min-width: 768px) {
   .jumbotron .lead {
     font-size: 2em;
-  }
-}
-.jumbotron {
-  background-color: rgba(255,255,255,0.5);
-}
-.jumbotron h1 {
-  font-family: 'Bernhard Modern';
-  color: rgba(0,0,0,1.0);
-  font-size: 63px;
-}
-@media (min-width: 600px) {
-  .jumbotron h1 {
-    font-size: 82px;
+    padding: 0 0 0 0;
   }
 }
 .jumbotron p {
   font-family: 'Century Gothic';
 }
 .jumbotron img {
-  width: 90%;
+  width:90%;
+  margin: 1em 0 0 0;
 }
 .jumbotron blockquote {
   border: 0 solid rgba(255, 255, 255, 0.0);
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
 }
 .jumbotron blockquote p {
   font-style: italic;
   font-size: .9em;
   margin: 0 0 0 0;
-  padding: 0 0 0 0;
+  padding: .25em .25em .25em .75em;
 }
 .jumbotron footer {
   color: rgba(0,0,0,1.0);
   font-size: .7em;
-  margin: 0 0 0 0;
+  margin: .125em 0 0 0;
   padding: 0 0 0 0;
+}
+
+.package {
+  border: 2px solid rgba(255,255,255, 1.0);
+  margin: -2em 1em 1em 1em;
+  padding: 0em 1em 1em 1em;
+}
+.package h1 {
+  background-color: rgba(255,255,255, 0.25);
+  text-align: center;
+  margin: 0 -.5em .5em -.5em;
+  padding: .5em .5em .5em .5em;
 }
 /* begin Bernhard Modern */
 .bernhardModern {
