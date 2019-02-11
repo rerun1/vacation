@@ -1,0 +1,48 @@
+/* begin Bernhard Modern */
+@font-face {
+  font-family: 'Bernhard Mdoern';
+  src : url('../fonts/bernhardModern/BernhModBTRom.eot');
+  src : url('../fonts/bernhardModern/BernhModBTRom.eot?#iefix') format('eot'),
+        url('../fonts/bernhardModern/BernhModBTRom.woff2') format('woff2'),
+        url('../fonts/bernhardModern/BernhModBTRom.woff') format('woff'),
+        url('../fonts/bernhardModern/BernhModBTRom.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* end Bernhard Modern */
+/* begin Century Gothic */
+@font-face {
+  font-family: 'Century Gothic';
+  src : url('../fonts/centuryGothic/CenturyGothic.eot');
+  src : url('../fonts/centuryGothic/CenturyGothic.eot?#iefix') format('eot'),
+        url('../fonts/centuryGothic/CenturyGothic.woff2') format('woff2'),
+        url('../fonts/centuryGothic/CenturyGothic.woff') format('woff'),
+        url('../fonts/centuryGothic/CenturyGothic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  font-stretch: normal;
+  font-display: swap;
+}
+/* end Century Gothic */
+
+/* begin Bernhard Modern */
+.bernhardModern {
+  font-family: 'Bernhard Modern', serif;
+  font-variant: normal;
+  font-weight: 400;
+  font-style: serif;
+}
+/* end Bernhard Modern */
+
+/* begin Century Gothic */
+.centuryGothic {
+  font-family: 'Century Gothic', serif;
+  font-variant: normal;
+  font-weight: 400;
+  font-style: serif;
+}
+/* end Century Gothic */
