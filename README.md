@@ -17,7 +17,7 @@ A simple html page incorporating the bootstrap css framework, custom css styles 
 ## Current Screenshot for Reference
 <br>
 
-![alt text](https://raw.githubusercontent.com/rerun1/vacation/master/img/screenShot2-10-2019.png)
+![alt text](https://raw.githubusercontent.com/rerun1/vacation/master/img/screenShot2-10-19.png)
 <br>
 <br>
 
